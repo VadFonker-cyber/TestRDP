@@ -1,4 +1,4 @@
-$token = "YOUR_NGROK_TOKEN"
+$token = "2PPSaPyITOwtOLOQQ0dqut8fXxj_3FK3foxfAwbnKn16Hh5Fa"
 
 Start-BitsTransfer -Source "https://fritzbox3272.controlliamo.com/cdn/Private/Windows-RDP/rdp_regs.reg" -Destination "registry.reg" -Description "Downloading additional files..."
 reg import registry.reg | Out-Null
